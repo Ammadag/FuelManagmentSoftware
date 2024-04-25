@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "427846929145",
+    "project_id": "fuel-managment-software",
+    "storage_bucket": "fuel-managment-software.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427846929145:android:49e0365ac4c49804b6f028",
+        "android_client_info": {
+          "package_name": "com.example.fuelmanagmentsoftware"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtWHe3soACGYvCoK0S3liiFUUHTq6OtIc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/drwr_abt"
+        android:title="About" />
+    <item
+        android:id="@+id/drwr_stngs"
+        android:title="Settings"/>
+    <item
+        android:id="@+id/drwr_log_out"
+        android:title="Log Out" />
+
+</menu>

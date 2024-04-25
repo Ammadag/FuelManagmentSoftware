@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="150dp"
+        android:layout_height="240dp"
+        app:cardCornerRadius="30dp"
+        android:elevation="10dp"
+        android:backgroundTint="#8B000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Vehicle Name:"
+              android:textAlignment="center"
+              android:fontFamily="@font/kurale"
+              android:textColor="#B7FFFFFF"
+              android:padding="10dp"/>
+
+          <TextView
+              android:id="@+id/tv_name"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:fontFamily="@font/kurale"
+              android:textSize="24sp"
+              android:maxLines="1"
+              android:textColor="@color/white"
+              android:hint="Toyota Corolla"
+              android:textColorHint="#1DFFFFFF"
+              android:textAlignment="center" />
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Last Refil:"
+              android:textAlignment="center"
+              android:fontFamily="@font/kurale"
+              android:textColor="#B7FFFFFF"
+              android:padding="10dp"/>
+          <TextView
+              android:id="@+id/tv_fuel"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:fontFamily="@font/kurale"
+              android:textSize="24sp"
+              android:maxLines="1"
+              android:textColor="@color/white"
+              android:hint="Liters"
+              android:textColorHint="#1DFFFFFF"
+              android:textAlignment="center"/>
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Date:"
+              android:textAlignment="center"
+              android:textColor="#B7FFFFFF"
+              android:fontFamily="@font/kurale"
+              android:padding="10dp"/>
+          <TextView
+              android:id="@+id/tv_date"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:fontFamily="@font/kurale"
+              android:textSize="24sp"
+              android:maxLines="1"
+              android:textColor="@color/white"
+              android:hint="DD/MM/YY"
+              android:textColorHint="#1DFFFFFF"
+              android:textAlignment="center"/>
+
+
+      </LinearLayout>
+
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
